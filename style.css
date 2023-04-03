@@ -154,8 +154,8 @@ a:visited {
     height: 2rem;
     justify-items: end;
 }
-.sidebar-icon>img {
-    margin: auto;
+.icon-svg {
+    filter: invert(100%) sepia(0%) saturate(7418%) hue-rotate(317deg) brightness(111%) contrast(124%);
 }
 .site-links {
     justify-content: flex-end;
