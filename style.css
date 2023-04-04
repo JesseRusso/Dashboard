@@ -41,7 +41,7 @@ a:visited {
     grid-template-rows: 1fr 1fr;
     background-color: white;
     grid-column: 2/5;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -63,7 +63,7 @@ a:visited {
     gap: 20px;
 }
 .user-icon{
-    width: 32px;
+    width: 40px;
     height: auto;
 }
 .notification, .search-icon{
@@ -202,7 +202,7 @@ input, .input{
 .announcements {
     display: grid;
     grid-template-rows: 3rem;
-    padding: 20px;
+    padding: 20px 0 0 20px;
 }
 
 .trending {
@@ -210,7 +210,12 @@ input, .input{
     grid-template-rows: 3rem;
     padding: 20px;
 }
-
+.trending-user{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    font-size: 0.8rem;
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
@@ -246,9 +251,8 @@ input, .input{
     font-weight: 600;
 }
 
-.announcement-post,
-.trending-user {
-    font-size: 0.8rem;
+.announcement-post{
+    font-size: 0.9rem;
 }
 
 .announcement-title {
